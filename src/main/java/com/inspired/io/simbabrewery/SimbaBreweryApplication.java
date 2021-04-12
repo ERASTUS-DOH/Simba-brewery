@@ -8,6 +8,7 @@ public class  SimbaBreweryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SimbaBreweryApplication.class, args);
+
 	}
 
 }
