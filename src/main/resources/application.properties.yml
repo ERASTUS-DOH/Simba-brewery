@@ -1,0 +1,16 @@
+#greeting:hello spring cloud.
+app:
+    name: Simba
+    db: mysql
+        password: ${app.name}@505050
+        connection: SimbaDb,LocalHost,WelcomeHome
+        values: "{connectionString:'http://__', username:'elinam', password:'TempPass1@'}"
+
+
+db:
+    connection: wow.mysql
+    password: Me@Mercy1
+    port: 8080
+    host: localHost
+
+management.endpoints.web.exposure.include: "*"

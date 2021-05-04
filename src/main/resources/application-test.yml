@@ -1,0 +1,17 @@
+#greeting:hello spring cloud.
+app:
+  name: Simba
+  db:
+    name: mysql
+    password: Simba@505050
+    connection: SimbaDb,LocalHost,WelcomeHome
+    values: "{connectionString:'http://__', username:'elinam', password:'TempPass1@'}"
+
+
+db:
+  connection: test.profile
+  password: testPassword
+  port: 8080
+  host: localHost
+
+management.endpoints.web.exposure.include: "*"
